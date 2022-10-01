@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.GenreList {
+  margin-top: 2rem;
+}
+
+.GenreList__option {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 0.75rem;
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.MoviesList {
+  margin: 3rem;
+  text-align: left;
+}
+
+.MoviesList__item {
+  list-style-type: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #cbd5e1;
+}
+
+.MoviesList__item--title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0.25rem 0rem;
+}
+
+.MoviesList__item--rating {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
